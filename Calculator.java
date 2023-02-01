@@ -6,14 +6,27 @@ public class Calculator {
 	}
 
 	public int add(int a, int b, int c) {
-                System.out.println("This is add method for 3 parameters");
-                return a + b + c;
+        System.out.println("This is add method for 3 parameters");
+        return a + b + c;
 	}
 
-        public int add(int a, int b, int c, int d) {
-                System.out.println("This is add method for 4 parameters");
-                return a + b + c + d;
+    public int add(int a, int b, int c, int d) {
+        System.out.println("This is add method for 4 parameters");
+        return a + b + c + d;
+
+	public int sub(int a, int b) {
+        return a - b;
         }
 
+    public int div(int a, int b) {
+        return a / b;
+        }
+
+	public int mult(int a, int b) {
+        return a * b;
+        }
+
+    public double sqrt(int a) {
+        return Math.sqrt(a);
 
 }
