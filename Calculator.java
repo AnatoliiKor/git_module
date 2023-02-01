@@ -1,7 +1,7 @@
 public class Calculator {
 
 	public int add(int a, int b) {
-		System.out.println("This is add method for 2 parameters");
+		System.out.println("This is add method");
 		return a + b;
 	}
 
